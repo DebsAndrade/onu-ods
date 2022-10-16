@@ -7,7 +7,12 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-        background: rgb(47,124,158);
-        background: linear-gradient(111deg, rgba(47,124,158,1) 0%, rgba(95,80,181,1) 41%, rgba(95,80,181,1) 100%);
+        font-family: 'Poppins', sans-serif;
+        color: #4d4d4d;
+    }
+
+    body {
+        height: 100vh;
+        background: #fff
     }
 `
