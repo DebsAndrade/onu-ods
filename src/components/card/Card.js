@@ -8,10 +8,6 @@ const Card = ({ title, description, url, thumbnail}) => {
                 <a href={url} target="_blank" rel="noopener noreferrer">
                     <S.CardImage src={thumbnail} alt="Onu-ODS"/>
                 </a>
-                <S.CardBody>
-                    <S.H4>{title}</S.H4>
-                    <S.CardParagraph>{description}</S.CardParagraph>  
-                </S.CardBody>
             </S.Card>
         </S.ContainerCard>
     )

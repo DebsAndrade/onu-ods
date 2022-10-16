@@ -22,122 +22,88 @@ import Ods17 from "../assets/image/ods_17.png";
 const InfoCards = [
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods01,
-        url: "",
+        url: "https://unescoportugal.mne.gov.pt/pt/temas/objetivos-de-desenvolvimento-sustentavel/os-17-ods/objetivo-de-desenvolvimento-sustentavel-1-erradicar-a-pobreza-em-todas-as-suas-formas-em-todos-os-lugares",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods02,
-        url: "",
+        url: "https://ods.pt/objectivos/2-acabar-com-a-fome/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods03,
-        url: "",
+        url: "https://ods.pt/objectivos/3-vida-saudavel/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods04,
-        url: "",
+        url: "https://ods.pt/objectivos/4-educacao-de-qualidade/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods05,
-        url: "",
+        url: "https://ods.pt/objectivos/5-igualidade-de-genero/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods06,
-        url: "",
+        url: "https://ods.pt/objectivos/6-agua-e-saneamento/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods07,
-        url: "",
+        url: "https://ods.pt/objectivos/7-energias-renovaveis/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods08,
-        url: "",
+        url: "https://ods.pt/objectivos/8-trabalho-e-crescimento-economico/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods09,
-        url: "",
+        url: "https://ods.pt/objectivos/9-inovacao-e-infraestruturas/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods10,
-        url: "",
+        url: "https://ods.pt/objectivos/10-reduzir-as-desigualdades/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods11,
-        url: "",
+        url: "https://ods.pt/objectivos/11-cidades-e-comunidades-sustentaveis/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods12,
-        url: "",
+        url: "https://ods.pt/objectivos/12-producao-e-consumo-sustentaveis/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods13,
-        url: "",
+        url: "https://ods.pt/objectivos/13-combater-as-alteracoes-climatericas/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods14,
-        url: "",
+        url: "https://ods.pt/objectivos/14-oceanos-mares-e-recursos-marinhos/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods15,
-        url: "",
+        url: "https://ods.pt/objectivos/15-ecosistemas-terrestres-biodiversidade/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods16,
-        url: "",
+        url: "https://ods.pt/objectivos/16-paz-e-justica/",
     },
 
     {
-        title: "A",
-        description: "",
         thumbnail: Ods17,
-        url: "",
+        url: "https://ods.pt/objectivos/17-parcerias-para-o-desenvolvimento/",
     },
 
 ];
@@ -154,8 +120,6 @@ const Cards = () => {
         <ContainerCards>
             {InfoCards.map(item => 
                 <Card
-                    title={item.title}
-                    description={item.description}
                     url={item.url}
                     thumbnail={item.thumbnail}
                 />
