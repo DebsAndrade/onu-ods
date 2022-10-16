@@ -4,7 +4,7 @@ export const ContainerCard = styled.div`
     display: flex;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        width: 90vw;
+        justify-content: center;
     }
 `
 
@@ -16,7 +16,7 @@ export const Card = styled.div`
     overflow: hidden;
     width: 250px;
     transition: all 0.2s;
-    border: 1px solid #418FDE;
+    border: 1px solid #4d4d4d;
 
     &:hover {
         box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);

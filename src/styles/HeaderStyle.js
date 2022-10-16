@@ -6,18 +6,38 @@ export const ContainerHeader = styled.header`
     flex-direction: column;
     align-items: center;
     padding: 1.5vw;
+
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
+        padding: 7vw;
+        text-align: justify;
+    }
 `
 
 export const OnuImg = styled.img`
     width: 20vw;
+
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
+        width: 80vw;
+    }
 `
 
 export const H1 = styled.h1`
     font-size: 3em;
     line-height: 2em;
+
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
+        font-size: 2.8em;
+        line-height: 1em;
+        padding: 6vw;
+    }
 `
 
 export const H2 = styled.h2`
     font-size: 2em;
     line-height: 1.2em;
+
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
+        font-size: 1.8em;
+        line-height: 1em;
+    }
 `
