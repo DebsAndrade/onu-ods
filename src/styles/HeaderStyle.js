@@ -9,7 +9,6 @@ export const ContainerHeader = styled.header`
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
         padding: 7vw;
-
     }
 `
 
@@ -24,6 +23,7 @@ export const OnuImg = styled.img`
 export const H1 = styled.h1`
     font-size: 3em;
     line-height: 2em;
+    text-align: center;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
         font-size: 2em;
@@ -35,6 +35,7 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
     font-size: 2em;
     line-height: 1.2em;
+    text-align: center;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
         font-size: 1.2em;
