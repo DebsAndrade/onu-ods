@@ -5,11 +5,11 @@ export const ContainerHeader = styled.header`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5vw;
+    padding-block: 1.5vw;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
         padding: 7vw;
-        text-align: justify;
+
     }
 `
 
@@ -26,9 +26,9 @@ export const H1 = styled.h1`
     line-height: 2em;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        font-size: 2.8em;
+        font-size: 2em;
         line-height: 1em;
-        padding: 6vw;
+        padding: 5vw;
     }
 `
 
@@ -37,7 +37,7 @@ export const H2 = styled.h2`
     line-height: 1.2em;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        font-size: 1.8em;
+        font-size: 1.2em;
         line-height: 1em;
     }
 `
